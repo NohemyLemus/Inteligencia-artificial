@@ -1,0 +1,18 @@
+-----LINK A LOS ARCHIVOS-----
+GitHub
+https://github.com/NohemyLemus/Inteligencia-artificial.git
+Trello
+https://trello.com/invite/b/EeGAyC8E/d4d289d043c0a4ef6cd8cc8449114466/inteligencia-artificial
+
+Investigación de apoyo
+https://github.com/jbagnato/machine-learning/blob/master/Ejercicio_Random_Forest.ipynb
+https://www.aprendemachinelearning.com/arbol-de-decision-en-python-clasificacion-y-prediccion/
+https://www.aprendemachinelearning.com/random-forest-el-poder-del-ensamble/
+
+
+Integrantes
+Ramón Humberto Ventura Rodríguez
+Heidy Nohemy Lemus Ramos
+Will Alejandro Lara Mejía
+Manuel Enrrique Aguilar Reyes
+Abel Enrique Consuegra Zuniga
