@@ -1,17 +1,25 @@
 digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
 edge [fontname=helvetica] ;
-0 [label="petal_length <= 2.45\ngini = 0.666\nsamples = 120\nvalue = [38, 42, 40]\nclass = Iris-versicolor", fillcolor="#fafefc"] ;
-1 [label="gini = 0.0\nsamples = 38\nvalue = [38, 0, 0]\nclass = Iris-setosa", fillcolor="#e58139"] ;
+0 [label="petal_length <= 2.45\nentropy = 1.579\nsamples = 120\nvalue = [39, 45, 36]\nclass = Iris-versicolor", fillcolor="#f0fdf6"] ;
+1 [label="entropy = 0.0\nsamples = 39\nvalue = [39, 0, 0]\nclass = Iris-setosa", fillcolor="#e58139"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="petal_length <= 4.75\ngini = 0.5\nsamples = 82\nvalue = [0, 42, 40]\nclass = Iris-versicolor", fillcolor="#f6fef9"] ;
+2 [label="petal_length <= 4.75\nentropy = 0.991\nsamples = 81\nvalue = [0, 45, 36]\nclass = Iris-versicolor", fillcolor="#d7fae6"] ;
 0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-3 [label="gini = 0.0\nsamples = 37\nvalue = [0, 37, 0]\nclass = Iris-versicolor", fillcolor="#39e581"] ;
+3 [label="entropy = 0.0\nsamples = 40\nvalue = [0, 40, 0]\nclass = Iris-versicolor", fillcolor="#39e581"] ;
 2 -> 3 ;
-4 [label="petal_width <= 1.75\ngini = 0.198\nsamples = 45\nvalue = [0, 5, 40]\nclass = Iris-virginica", fillcolor="#9152e8"] ;
+4 [label="petal_width <= 1.7\nentropy = 0.535\nsamples = 41\nvalue = [0, 5, 36]\nclass = Iris-virginica", fillcolor="#9254e9"] ;
 2 -> 4 ;
-5 [label="gini = 0.5\nsamples = 8\nvalue = [0, 4, 4]\nclass = Iris-versicolor", fillcolor="#ffffff"] ;
+5 [label="petal_length <= 4.95\nentropy = 1.0\nsamples = 8\nvalue = [0, 4, 4]\nclass = Iris-versicolor", fillcolor="#ffffff"] ;
 4 -> 5 ;
-6 [label="gini = 0.053\nsamples = 37\nvalue = [0, 1, 36]\nclass = Iris-virginica", fillcolor="#843ee6"] ;
-4 -> 6 ;
+6 [label="entropy = 0.0\nsamples = 3\nvalue = [0, 3, 0]\nclass = Iris-versicolor", fillcolor="#39e581"] ;
+5 -> 6 ;
+7 [label="entropy = 0.722\nsamples = 5\nvalue = [0, 1, 4]\nclass = Iris-virginica", fillcolor="#a06aec"] ;
+5 -> 7 ;
+8 [label="petal_length <= 4.85\nentropy = 0.196\nsamples = 33\nvalue = [0, 1, 32]\nclass = Iris-virginica", fillcolor="#853fe6"] ;
+4 -> 8 ;
+9 [label="entropy = 0.918\nsamples = 3\nvalue = [0, 1, 2]\nclass = Iris-virginica", fillcolor="#c09cf2"] ;
+8 -> 9 ;
+10 [label="entropy = 0.0\nsamples = 30\nvalue = [0, 0, 30]\nclass = Iris-virginica", fillcolor="#8139e5"] ;
+8 -> 10 ;
 }
